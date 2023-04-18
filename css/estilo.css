@@ -5,6 +5,7 @@
 :root {
 	--cor-fundo: #f5f5f5;
 	--cor-menu: #F9CAE1;
+	--cor-font: #fff;
 }
 body {
 	background-color: var(--cor-fundo);
@@ -28,32 +29,39 @@ body {
 	float:left;
 }
 .menu li{
-	float:left;
-	height: 50px;
-	text-align: center;
-	padding-top: 5px;
+position:relative;
+float:left;
+height: 50px;
+text-align: center;
+padding-top: 5px;
 
 }
 .menu li a {
-	color: var(--cor-menu); 
-	text-decoration: underline; 
+	color:#333; 
+	text-decoration:none; 
 	padding:10px 50px; 
 	display:block;
 }
 
 li a:hover {
-	background: var( --cor-menu );
-	color:#fff;
-}
+background:#333;
+color:#fff;}
 
 .menu li  ul{
 position:relative;
 top: auto 0;
 left:0;
-background-color:var(--cor-menu);
+background-color:#fff;
+
 display:none;
 }
-
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+	display:block;
+	width: auto;
+	background-color: var(--cor-menu);
+	color: var(--cor-font);
+}
 .make {
 	margin-left: 5px;
 }
