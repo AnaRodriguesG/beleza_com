@@ -28,29 +28,29 @@ body {
 	float:left;
 }
 .menu li{
-position:relative;
-float:left;
-height: 50px;
-text-align: center;
-padding-top: 5px;
+	float:left;
+	height: 50px;
+	text-align: center;
+	padding-top: 5px;
 
 }
 .menu li a {
 	color: var(--cor-menu); 
-	text-decoration:none; 
+	text-decoration: underline; 
 	padding:10px 50px; 
 	display:block;
 }
 
 li a:hover {
-background: var( --cor-menu );
-color:#fff;}
+	background: var( --cor-menu );
+	color:#fff;
+}
 
 .menu li  ul{
 position:relative;
 top: auto 0;
 left:0;
-background-color:#fff;
+background-color:var(--cor-menu);
 display:none;
 }
 
