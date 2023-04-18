@@ -49,7 +49,7 @@ color:#fff;
 
 .menu li  ul{
 position:absolute;
-top:25px;
+top:0 auto;
 left:0;
 background-color:#fff;
 display:none;
