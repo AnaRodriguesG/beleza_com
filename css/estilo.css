@@ -29,36 +29,37 @@ body {
 	float:left;
 }
 .menu li{
-position:relative;
+position:absolute;
 float:left;
 height: 50px;
 text-align: center;
 padding-top: 5px;
 
 }
-.menu li a {
+.menu li a{
 	color:#333; 
 	text-decoration:none; 
 	padding:10px 50px; 
 	display:block;
 }
 
-li a:hover {
+.menu li a:hover{
 background:#333;
-color:#fff;}
+color:#fff;
+}
 
 .menu li  ul{
-position:relative;
-top: 5px;
+position:absolute;
+top:25px;
 left:0;
 background-color:#fff;
-
 display:none;
 }
 .menu li:hover ul, .menu li.over ul{display:block;}
 .menu li ul li{
+	border:1px solid #c0c0c0;
 	display:block;
-	width: auto;
+	width:150px;
 	background-color: var(--cor-menu);
 	color: var(--cor-font);
 }
