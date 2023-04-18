@@ -59,7 +59,7 @@ display:none;
 	display:block;
 	background-color: var(--cor-menu);
 	color: black;
-	font-size: 12px;
+	font-size: 10px;
 }
 .menu li ul li{
 	display:block;
