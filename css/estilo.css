@@ -62,7 +62,7 @@ display:none;
 }
 .menu li ul li{
 	display:block;
-	width:180px;
+	width: auto;
 }
 .make {
 	margin-left: 5px;
