@@ -59,7 +59,9 @@ display:none;
 	display:block;
 	background-color: var(--cor-menu);
 	color: black;
-	font-size: 10px;
+	font-size: 12px;
+	height: 15px;
+	text-align: center;
 }
 .menu li ul li{
 	display:block;
