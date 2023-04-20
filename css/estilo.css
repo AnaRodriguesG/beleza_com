@@ -3,7 +3,7 @@
 	padding: 0;
 }
 :root {
-	--cor-fundo: #FFE3F7;
+	--cor-fundo: #²FFE3F7;
 	--cor-menu: #F9CAE1;
 }
 body {
@@ -67,6 +67,9 @@ display:none;
 }
 .make {
 	margin-left: 5px;
+}
+.slide-container {
+	margin-top: 500px;
 }
 .card {
 	border-radius: 25px;
