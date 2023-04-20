@@ -73,7 +73,8 @@ display:none;
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 215px;
+  height: 215px;
   position: relative;
   margin: auto;
 }
