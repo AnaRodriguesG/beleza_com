@@ -87,7 +87,6 @@ display:none;
 	border-radius: 15%;
 	border: 4px;
 }
-.image-content {
-	border-left: 15px;
-	margin-top: 300px;
+main {
+	background-color: var(--cor-fundo);
 }
