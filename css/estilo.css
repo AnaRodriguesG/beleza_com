@@ -68,3 +68,20 @@ display:none;
 .make {
 	margin-left: 5px;
 }
+ .container {
+ 	display: flex;
+ 	transition: transform 0.5s ease-in-out;
+ 	transform: translateX(0);
+ }
+ .carrosel {
+ 	box-shadow: 2px 2px 4px black;
+ 	overflow: hidden;
+ 	height: 215px;
+ 	width: 215px;
+ }
+ img{
+ 	object-fit: cover;
+ 	height: 215px;
+ 	width: 215px;
+ }
+ 
