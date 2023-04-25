@@ -71,7 +71,6 @@ display:none;
 	margin-left: 5px;
 }
 
-{box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
@@ -80,6 +79,7 @@ display:none;
   position: relative;
   display: block;
   margin: auto;
+
   top: 300px;
 }
 
@@ -91,8 +91,9 @@ display:none;
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 50%;
+  margin-inline: 852px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
