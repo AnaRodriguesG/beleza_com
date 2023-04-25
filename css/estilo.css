@@ -8,6 +8,7 @@
 }
 body {
 	background-color: var(--cor-fundo);
+  width: 5812.880px;
 }
 
 .logo{
@@ -98,7 +99,7 @@ display:none;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  user-select: contain;
+
 }
 
 /* Position the "next button" to the right */
