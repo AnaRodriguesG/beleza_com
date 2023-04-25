@@ -9,7 +9,9 @@
 body {
 	background-color: var(--cor-fundo);
 }
-
+main {
+  width: 580px;
+}
 .logo{
 	text-align: center;
 	background-color: #FAF0F5;
